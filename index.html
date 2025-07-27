@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="Home">
+        <div class="navbar" >
+            <div class="nav_logo">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="nav_anchors">
+                <div class="nav_anchor"><a href="#Home">Home</a></div>
+                <div class="nav_anchor"><a href="#About_Me">About</a></div>
+                <div class="nav_anchor"><a href="#Resume">Resume</a></div>
+                <div class="nav_anchor"><a href="#Services">Services</a></div>
+                <div class="nav_anchor"><a href="#Skills">Skills</a></div>
+                <div class="nav_anchor"><a href="#Projects">Projects</a></div>
+                <div class="nav_anchor"><a href="#Contact">Contact</a></div>
+            </div>
+        </div>
+        <div class="page1">
+            <div class="p1_info">
+                <div id="info_para1">
+                    <p>Hello!</p>
+                </div>
+                <div id="info_para2">
+                    <p><span>I'm</span> Mubashar Gill</p>
+                </div>
+                <div id="info_para3">
+                    <p>Fullstack Web Developer</p>
+                </div>
+                <div class="info_btns">
+                    <div class="info_btn">
+                        <button onclick="scrollToContact()" id="info_btn_hire">Hire Me</button>
+                    </div>
+                    <div class="info_btn">
+                        <button onclick="scrollToProjects()">My Work</button>
+                    </div>
+                </div>
+            </div>
+            <div class="p1_img">
+                <img src="AA1.jpg" alt="">
+            </div>
+        </div>
+        <hr>
+        <br id="About_Me">
+        <div class="page2" >
+            <div class="p2_img">
+                <img src="AA1.jpg" alt="">
+            </div>
+            <div class="p2_info">
+                <div id="p2_info_para1">
+                    <p >About Me</p>
+                </div>
+                <div id="p2_info_para2">
+                    <p>A technical architect weaving together responsive interfaces with server-side functionality.</p>
+                </div>
+                <div id="p2_info_para3">
+                  <div class="p2_info_table">
+                    <div class="info_row">
+                        <span class="info_label">Name:</span>
+                        <p class="info_value">Mubashar Hassan</p>
+                    </div>
+                    <div class="info_row">
+                        <span class="info_label">Date of Birth:</span>
+                        <p class="info_value">January 01,2006</p>
+                    </div>
+                    <div class="info_row">
+                        <span class="info_label">Address:</span>
+                        <p class="info_value">Multan</p>
+                    </div>
+                    <div class="info_row">
+                        <span class="info_label">Zip Code:</span>
+                        <p class="info_value">#1000</p>
+                    </div>
+                    <div class="info_row">
+                        <span class="info_label">Email:</span>
+                        <p class="info_value">mubashargill595@gamil.com</p>
+                    </div>
+                    <div class="info_row">
+                        <span class="info_label">Phone:</span>
+                        <p class="info_value">+923087347575</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="p2_info_para4">
+                    <div><p><span>73</span> Projects Complete</p></div>
+                    <div class="p2_info_btn" >
+                        <button onclick="scrollToContact()">Hire Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br id="Resume">
+        <div class="page3" >
+            <div class="p3_info">
+                <div id="p2_info_para1">
+                    <p id="resume_hed">Resume</p>
+                </div>
+                <div id="p3_info_para3_para">
+                    <p>Education</p>
+                </div>
+                <div class="resume-table">
+                    <div class="resume-row">
+                        <div class="resume-label">Metric:</div>
+                        <div class="resume-detail">Al Ilm Rahbar High School Multan</div>
+                    </div>
+                    <div class="resume-row">
+                        <div class="resume-label">College:</div>
+                        <div class="resume-detail">Pakistan College of Science 17/Kassi Vehari Road Multan</div>
+                    </div>
+                    <div class="resume-row">
+                        <div class="resume-label">Bachelor in CS:</div>
+                        <div class="resume-detail">Bahauddin Zakariya University, Multan</div>
+                    </div>
+                </div>
+
+                <div id="p3_info_para3_para">
+                    <p>Experience</p>
+                </div>
+                <div class="resume-table">
+                    <div class="resume-row">
+                        <div class="resume-label">Web Developer:</div>
+                        <div class="resume-detail">Full MERN Stack Web Developer</div>
+                    </div>
+                    <div class="resume-row">
+                        <div class="resume-label">Mobile App Developer:</div>
+                        <div class="resume-detail">Mobile Application Development in React Native</div>
+                    </div>
+                </div>
+                <div id="p3_info_para4">
+                    <div><p><span>73</span> Project Complete</p></div>
+                    <div class="p3_info_btn">
+                        <button id="downloadCvBtn">Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br id="Services">
+        <div class="page4">
+            <div class="p4_info">
+                <div id="p2_info_para1">
+                    <p id="Resume">Services</p>
+                </div>
+                <div class="services-table">
+                    <div class="service-row">
+                        <div class="service-title">Full Stack Web Development</div>
+                        <div class="service-description">
+                            End-to-end website and web app development using MongoDB, Express.js, React, and Node.js.
+                        </div>
+                    </div>
+                    <div class="service-row">
+                        <div class="service-title">Mobile App Development</div>
+                        <div class="service-description">
+                            Cross-platform mobile apps for Android & iOS using React Native. Clean UI and smooth performance guaranteed.
+                        </div>
+                    </div>
+                    <div class="service-row">
+                        <div class="service-title">Frontend Development</div>
+                        <div class="service-description">
+                            Stunning, user-friendly interfaces using HTML5, CSS3, and modern JavaScript frameworks like React.
+                        </div>
+                    </div>
+                    <div class="service-row">
+                        <div class="service-title">Backend API Development</div>
+                        <div class="service-description">
+                            RESTful API creation and integration using Node.js & Express. Secure and scalable server-side logic.
+                        </div>
+                    </div>
+                    <div class="service-row">
+                        <div class="service-title">Firebase Integration</div>
+                        <div class="service-description">
+                            User authentication, real-time database, and hosting setup for mobile/web apps using Firebase.
+                        </div>
+                    </div>
+                    <div class="service-row">
+                        <div class="service-title">Bug Fixing & Optimization</div>
+                        <div class="service-description">
+                            Improve app speed, remove errors, and optimize code for better performance and maintainability.
+                        </div>
+                    </div>
+                    <div class="service-row">
+                        <div class="service-title">Responsive UI/UX Design</div>
+                        <div class="service-description">
+                            Build intuitive and mobile-friendly layouts with modern design principles using CSS frameworks like Tailwind.
+                        </div>
+                    </div>
+                    <div class="service-row">
+                        <div class="service-title">Git & Deployment Services</div>
+                        <div class="service-description">
+                            Version control with Git/GitHub and deployment on platforms like Vercel, Netlify, or Heroku for seamless project delivery.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br id="Skills">
+        <br>
+        <div class="page5" >
+            <div class="p5_info">
+                <div id="p2_info_para1">
+                    <p id="Resume">Skills</p>
+                </div>
+                <div id="p5_info_para2">
+                    <p>I'm proficient in MERN stack development and mobile app creation using React Native, with strong command over both frontend and backend technologies.</p>
+                </div>
+                <div class="p5_cards">
+                    <div class="p5_card">
+                        <div class="p5-card">
+                            <h3>Programming Languages</h3>
+                        
+                            <div class="skill">
+                                <div class="skill-name">JavaScript <span>90%</span></div>
+                                <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="skill">
+                                <div class="skill-name">TypeScript <span>80%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">HTML <span>80%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p5_card">
+                        <div class="p5-card">
+                            <h3>Technologies</h3>
+                        
+                            <div class="skill">
+                                <div class="skill-name">Git <span>75%</span></div>
+                                <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">Firebase <span>80%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">Tailwind CSS <span>85%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p5_card">
+                        <div class="p5-card">
+                            <h3>Web Development</h3>
+                            <div class="skill">
+                                <div class="skill-name">React <span>83%</span></div>
+                                <div class="progress-bar">
+                                <div class="progress" style="width: 83%;"></div>
+                                </div>
+                            </div>
+                        
+                            <div class="skill">
+                                <div class="skill-name">Node JS <span>90%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">Express <span>70%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p5_card">
+                        <div class="p5-card">
+                            <h3>Tools</h3>
+                            <div class="skill">
+                                <div class="skill-name">VS Code <span>90%</span></div>
+                                <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">Linux <span>80%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br id="Projects">
+        <br>
+        <div class="page6" >
+            <div id="p2_info_para1">
+                    <p id="Resume">Projects</p>
+            </div>
+            <div class="p6_main">
+                <div class="p6_card">
+                    <div class="p6_card1">
+                        <h2>Ecommercee Website</h2>
+                        <p><span id="p6_card_hed">Discription:</span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   A personal website built with HTML, CSS, and JavaScript to showcase resume, skills, and projects. <br><br> <strong style="color: aquamarine;">Stack:</strong>   HTML, CSS, JS </p>
+                        <div class="p6_logos">
+                            <div id="p6_logo_img">
+                                <img src="react.svg" alt="">
+                            </div>
+                            <div id="p6_logo_img">
+                                <img src="lk.png" alt="">
+                            </div>
+                            <div id="p6_logo_img">
+                                <img src="abb.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p6_card">
+                    <div class="p6_card1">
+                        <h2>Task Management App</h2>
+                        <p><span id="p6_card_hed">Discription:</span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  A mobile weather app showing real-time forecast using OpenWeather API. <br><br> <strong style="color: aquamarine;">Stack:</strong>  React Native, API, Expo </p>
+                        <div class="p6_logos">
+                            <div id="p6_logo_img">
+                                <img id="node" src="node.png" alt="">
+                            </div>
+                            <div id="p6_logo_img">
+                                <img src="js.png"  alt="">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="p6_card">
+                    <div class="p6_card1">
+                        <h2>MERN Stack E-Commerce App</h2>
+                        <p><span id="p6_card_hed">Discription:</span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   A full-stack application with product listings, cart, and checkout. <br><br> <strong style="color: aquamarine;">Stack:</strong> MongoDB, Express, React, Node </p>
+                        <div class="p6_logos">
+                            <div id="p6_logo_img">
+                                <img src="exp.png" alt="">
+                            </div>
+                            <div id="p6_logo_img">
+                                <img src="mmm.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br id="Contact"> 
+        <div class="page7" >
+            <div id="p2_info_para1">
+                <p id="Resume">Contact</p>
+            </div>     
+            <div class="p7_contact">
+                <div class="p7_leftbox">
+                    <div class="p7_fullname">
+                        <input autocomplete="off" id="con-input-fullname" type="text" placeholder="Full Name">
+                    </div>
+                    <div class="p7_fullname">
+                        <input autocomplete="off" id="con-input-email" type="email" placeholder="E-Mail">
+                    </div>
+                    <div class="p7_fullname">
+                        <input autocomplete="off" id="con-input-message" type="text" placeholder="Message">
+                    </div>
+                    <div class="p7_info_btn" id="contact-me-btn">
+                        <button id="con_me_btn_itself" type="submit">Contact Me</button>
+                    </div>
+                </div>
+                <div class="p7_rightbox">
+                    <div class="p7_Rb">
+                        <h2>Contact</h2>
+                        <br>
+                        <p><a id="mailanchor" href="mailto:mubashargill595@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Mubashar,%20I%20saw%20your%20portfolio..." class="footer-link">mubashargill595@gmail.com</a></p>
+                    </div>
+                    <div class="p7_Rb">
+                        <h2>Based in</h2>
+                        <br>
+                        <p>Multan Punjab Pakistan</p>
+                    </div>
+                    <div class="p7_Rb_Logos">
+                        <div><a href="https://www.instagram.com/mubashar_gill_3?igsh=MXUzcngyYXludmZmYg=="><img id="p7_Rb_logo_img" src="insta.jpg" alt=""></a></div>
+                        <div><a href="https://www.linkedin.com/in/mubashar-hassan-948623377/"><img id="p7_Rb_logo_img" src="in.jpg" alt=""></a></div>
+                        <div><a href="https://www.facebook.com/mubashar.gill.886208"><img id="p7_Rb_logo_img" src="fb.jpg" alt=""></a></div>
+                        <div><a href="https://youtube.com/@silent_boy_gill?si=sTrGRTeNYpxchNxz"><img id="p7_Rb_logo_img" src="yt.jpg" alt=""></div>
+                        <div><a href="https://x.com/MubasharGill15"><img id="p7_Rb_logo_img" src="twitter.png" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-nav">
+                    <a href="#Home" class="footer-link">HOME</a>
+                    <a href="#About_Me" class="footer-link">ABOUT</a>
+                    <a href="#Resume" class="footer-link">RESUME</a>
+                    <a href="#Services" class="footer-link">SERVICES</a>
+                    <a href="#Skills" class="footer-link">SKILLS</a>
+                    <a href="#Projects" class="footer-link">PROJECTS</a>
+                    <a href="#Contact" class="footer-link">CONTACT</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2023 Mubashar Gill. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
