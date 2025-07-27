@@ -6,6 +6,9 @@
   /* overflow: hidden; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 body{
     height: 100%;
@@ -752,7 +755,7 @@ input:focus{
 }
 
 .footer-copyright p {
-    color: rgb(180, 180, 180);
+    color: rgb(255, 0, 0);
     font-size: 0.9rem;
     text-align: center;
 }

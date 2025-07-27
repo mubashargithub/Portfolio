@@ -2,20 +2,6 @@
         document.querySelector('.navbar').classList.toggle('active');
     });
 
-    
-    
-    // ALSO A BEST PRACTICE
-
-// let p1_hire_btn =  document.getElementById('info_btn_hire');
-
-// p1_hire_btn.addEventListener('click',()=>{
-//     let contactSection = document.getElementById('Contact');
-//     contactSection.scrollIntoView({
-//         behavior: 'smooth',
-//         block: 'start'
-//     });
-// })
-
 
 
 function scrollToContact() {
