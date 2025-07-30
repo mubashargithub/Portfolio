@@ -13,16 +13,17 @@
                 <h2>Portfolio</h2>
             </div>
             <div class="nav_anchors">
-                <div class="nav_anchor"><a  href="#Home">Home</a></div>
-                <div class="nav_anchor"><a  href="#About_Me">About</a></div>
-                <div class="nav_anchor"><a  href="#Resume">Resume</a></div>
-                <div class="nav_anchor"><a  href="#Services">Services</a></div>
-                <div class="nav_anchor"><a  href="#Skills">Skills</a></div>
-                <div class="nav_anchor"><a  href="#Projects">Projects</a></div>
-                <div class="nav_anchor"><a  href="#Contact">Contact</a></div>
+                <div class="nav_anchor"><a id="home_nav_id" href="#Home">Home</a></div>
+                <div  class="nav_anchor"><a id="about_nav_id" href="#About_Me">About</a></div>
+                <div class="nav_anchor"><a id="resume_nav_id" href="#Resume">Resume</a></div>
+                <div class="nav_anchor"><a id="services_nav_id" href="#Services">Services</a></div>
+                <div class="nav_anchor"><a id="skills_nav_id" href="#Skills">Skills</a></div>
+                <div class="nav_anchor"><a id="projects_nav_id" href="#Projects">Projects</a></div>
+                <div class="nav_anchor"><a id="contact_nav_id" href="#Contact">Contact</a></div>
             </div>
         </div>
-        <div class="page1">
+        <div class="main-content" id="main-content1">
+            <div class="page1">
             <div class="p1_info">
                 <div id="info_para1">
                     <p>Hello!</p>
@@ -43,14 +44,14 @@
                 </div>
             </div>
             <div class="p1_img">
-                <img src="AA1.jpg" alt="">
+                <img src="imgs/AA1.jpg" alt="">
             </div>
         </div>
         <hr>
         <br id="About_Me">
         <div class="page2" >
             <div class="p2_img">
-                <img src="AA1.jpg" alt="">
+                <img src="imgs/AA1.jpg" alt="">
             </div>
             <div class="p2_info">
                 <div id="p2_info_para1">
@@ -325,13 +326,13 @@
                         <p><span id="p6_card_hed">Discription:</span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   A personal website built with HTML, CSS, and JavaScript to showcase resume, skills, and projects. <br><br> <strong style="color: aquamarine;">Stack:</strong>   HTML, CSS, JS </p>
                         <div class="p6_logos">
                             <div id="p6_logo_img">
-                                <img src="react.svg" alt="">
+                                <img src="imgs/react.svg" alt="">
                             </div>
                             <div id="p6_logo_img">
-                                <img src="lk.png" alt="">
+                                <img src="imgs/lk.png" alt="">
                             </div>
                             <div id="p6_logo_img">
-                                <img src="abb.png" alt="">
+                                <img src="imgs/abb.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -342,10 +343,10 @@
                         <p><span id="p6_card_hed">Discription:</span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  A mobile weather app showing real-time forecast using OpenWeather API. <br><br> <strong style="color: aquamarine;">Stack:</strong>  React Native, API, Expo </p>
                         <div class="p6_logos">
                             <div id="p6_logo_img">
-                                <img id="node" src="node.png" alt="">
+                                <img id="node" src="imgs/node.png" alt="">
                             </div>
                             <div id="p6_logo_img">
-                                <img src="js.png"  alt="">
+                                <img src="imgs/js.png"  alt="">
                             </div>
                             
                         </div>
@@ -357,10 +358,10 @@
                         <p><span id="p6_card_hed">Discription:</span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   A full-stack application with product listings, cart, and checkout. <br><br> <strong style="color: aquamarine;">Stack:</strong> MongoDB, Express, React, Node </p>
                         <div class="p6_logos">
                             <div id="p6_logo_img">
-                                <img src="exp.png" alt="">
+                                <img src="imgs/exp.png" alt="">
                             </div>
                             <div id="p6_logo_img">
-                                <img src="mmm.jpg" alt="">
+                                <img src="imgs/mmm.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -369,7 +370,7 @@
         </div>
         <hr>
         <br id="Contact"> 
-        <div class="page7" >
+        <div class="page7" id="page-7">
             <div id="p2_info_para1">
                 <p id="Resume">Contact</p>
             </div>     
@@ -400,25 +401,1252 @@
                         <p>Multan Punjab Pakistan</p>
                     </div>
                     <div class="p7_Rb_Logos">
-                        <div><a href="https://www.instagram.com/mubashar_gill_3?igsh=MXUzcngyYXludmZmYg=="><img id="p7_Rb_logo_img" src="insta.jpg" alt=""></a></div>
-                        <div><a href="https://www.linkedin.com/in/mubashar-hassan-948623377/"><img id="p7_Rb_logo_img" src="in.jpg" alt=""></a></div>
-                        <div><a href="https://www.facebook.com/mubashar.gill.886208"><img id="p7_Rb_logo_img" src="fb.jpg" alt=""></a></div>
-                        <div><a href="https://youtube.com/@silent_boy_gill?si=sTrGRTeNYpxchNxz"><img id="p7_Rb_logo_img" src="yt.jpg" alt=""></div>
-                        <div><a href="https://x.com/MubasharGill15"><img id="p7_Rb_logo_img" src="twitter.png" alt=""></a></div>
+                        <div><a href="https://www.instagram.com/mubashar_gill_3?igsh=MXUzcngyYXludmZmYg=="><img id="p7_Rb_logo_img" src="imgs/insta.jpg" alt=""></a></div>
+                        <div><a href="https://www.linkedin.com/in/mubashar-hassan-948623377/"><img id="p7_Rb_logo_img" src="imgs/in.jpg" alt=""></a></div>
+                        <div><a href="https://www.facebook.com/mubashar.gill.886208"><img id="p7_Rb_logo_img" src="imgs/fb.jpg" alt=""></a></div>
+                        <div><a href="https://youtube.com/@silent_boy_gill?si=sTrGRTeNYpxchNxz"><img id="p7_Rb_logo_img" src="imgs/yt.jpg" alt=""></div>
+                        <div><a href="https://x.com/MubasharGill15"><img id="p7_Rb_logo_img" src="imgs/twitter.png" alt=""></a></div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
+            <!-- About-Page -->
+        <div class="about-page" id="about-page1">
+            <div class="about-hero">
+                <div class="about-image">
+                    <img src="imgs/AA1.jpg" alt="Mubashar Hassan">
+                    <div class="image-overlay">
+                        <h2>Full Stack Developer</h2>
+                        <p>MERN Specialist | React Native Expert</p>
+                    </div>
+                </div>
+                <div class="about-intro">
+                    <h1>About <span>Me</span></h1>
+                    <p class="tagline">Crafting digital experiences that bridge design and technology</p>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">📱</div>
+                            <h3>50+ Mobile Apps</h3>
+                            <p>Built with React Native</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🌐</div>
+                            <h3>100+ Websites</h3>
+                            <p>MERN Stack Solutions</p>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🏆</div>
+                            <h3>5 Awards</h3>
+                            <p>Development Excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-details">
+                <div class="personal-info">
+                    <h2>Personal <span>Information</span></h2>
+                    <div class="info-table">
+                        <div class="info-row">
+                            <span class="info-label">Full Name:</span>
+                            <span class="info-value">Mubashar Hassan Gill</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Date of Birth:</span>
+                            <span class="info-value">January 01, 2006</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">Multan, Pakistan</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Languages:</span>
+                            <span class="info-value">English, Urdu, Punjabi</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">mubashargill595@gmail.com</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Phone:</span>
+                            <span class="info-value">+92 308 7347575</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" style="overflow: hidden;"><img src="imgs/git.png" alt=""></a>
+                        <a href="#" class="social-link" style="overflow: hidden;"><img src="imgs/in.jpg" alt=""></a>
+                        <a href="#" class="social-link" style="overflow: hidden;"><img src="imgs/twitter.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="professional-info">
+                    <div class="skills-section">
+                        <h2>Technical <span>Skills</span></h2>
+                        <div class="skill-bars">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript/TypeScript</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>React & React Native</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Node.js/Express</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>MongoDB</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-section">
+                        <h2>Professional <span>Journey</span></h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">2025 - Present</div>
+                                <div class="timeline-content">
+                                    <h3>Senior Full Stack Developer</h3>
+                                    <p>Developed 50+ web and mobile applications using MERN stack and React Native</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2023 - 2025</div>
+                                <div class="timeline-content">
+                                    <h3>Frontend Developer</h3>
+                                    <p>Created responsive UIs and single page applications with React</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2022 - 2023</div>
+                                <div class="timeline-content">
+                                    <h3>Freelance Developer</h3>
+                                    <p>Built custom solutions for clients worldwide</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-cta">
+                <div class="cta-content">
+                    <h2>Have a project in mind?</h2>
+                    <p>Let's turn your ideas into reality with cutting-edge technology</p>
+                    <button class="cta-button" onclick="scrollToContact()">Get In Touch</button>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="resume-page">
+            <div class="resume-header">
+                <h1>Mubashar Hassan</h1>
+                <p class="resume-title">Full Stack Developer | MERN Specialist</p>
+                <div class="resume-contact">
+                    <span>mubashargill595@gmail.com</span>
+                    <span>+92 308 7347575</span>
+                    <span>Multan, Pakistan</span>
+                </div>
+            </div>
+
+            <div class="resume-body">
+                <!-- Professional Summary -->
+                <section class="resume-section">
+                    <h2 class="section-title">Professional Summary</h2>
+                    <div class="section-content">
+                        <p>Experienced Full Stack Developer with 3+ years of expertise in building web and mobile applications using MERN stack and React Native. Passionate about creating efficient, scalable solutions with clean code and intuitive user interfaces.</p>
+                    </div>
+                </section>
+
+
+                <!-- Professional Experience -->
+                <section class="resume-section">
+                    <h2 class="section-title">Professional Experience</h2>
+                    <div class="section-content">
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h3>Freelance Full Stack Developer</h3>
+                                <span class="experience-date">2021 - Present</span>
+                            </div>
+                            <p class="experience-company">Self-Employed | Remote</p>
+                            <ul class="experience-details">
+                                <li>Developed 50+ web applications using MERN stack for clients worldwide</li>
+                                <li>Built 30+ cross-platform mobile apps with React Native</li>
+                                <li>Implemented CI/CD pipelines for automated testing and deployment</li>
+                                <li>Mentored junior developers in JavaScript best practices</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h3>Frontend Developer Intern</h3>
+                                <span class="experience-date">Summer 2020</span>
+                            </div>
+                            <p class="experience-company">TechSolutions Inc. | Multan</p>
+                            <ul class="experience-details">
+                                <li>Developed responsive UIs for client projects using React</li>
+                                <li>Collaborated with design team to implement pixel-perfect interfaces</li>
+                                <li>Optimized application performance reducing load times by 40%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section class="resume-section">
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-content">
+                        <div class="education-item">
+                            <div class="education-header">
+                                <h3>Bachelor of Science in Computer Science</h3>
+                                <span class="education-date">2023 - 2027 (Expected)</span>
+                            </div>
+                            <p class="education-institution">Bahauddin Zakariya University, Multan</p>
+                            <p class="education-details">Relevant Coursework: Data Structures, Algorithms, Database Systems, Web Development</p>
+                        </div>
+
+                        <div class="education-item">
+                            <div class="education-header">
+                                <h3>Intermediate (F.Sc. Pre-Engineering)</h3>
+                                <span class="education-date">2020 - 2022</span>
+                            </div>
+                            <p class="education-institution">Pakistan College of Science, Multan</p>
+                            <p class="education-details">Grade: A (85%)</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects -->
+                <section class="resume-section">
+                    <h2 class="section-title">Notable Projects</h2>
+                    <div class="section-content">
+                        <div class="project-item">
+                            <h3>E-Commerce Platform (MERN Stack)</h3>
+                            <ul>
+                                <li>Full-featured online store with product management, cart, and payment integration</li>
+                                <li>Implemented JWT authentication and role-based access control</li>
+                                <li>Optimized MongoDB queries reducing API response time by 60%</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-item">
+                            <h3>Task Management Mobile App (React Native)</h3>
+                            <ul>
+                                <li>Cross-platform productivity app with offline capabilities</li>
+                                <li>Integrated Firebase for real-time sync across devices</li>
+                                <li>Featured in "Top Productivity Apps" category on Play Store</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Certifications -->
+                <section class="resume-section">
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="section-content">
+                        <div class="certification-item">
+                            <h3>Full Stack Web Development Certification</h3>
+                            <p>freeCodeCamp | 2022</p>
+                        </div>
+                        <div class="certification-item">
+                            <h3>React Native Specialization</h3>
+                            <p>Coursera | 2021</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume-footer">
+                <button id="print-resume-btn">Print Resume</button>
+                <button id="download-resume-btn">Download PDF</button>
+            </div>
+        </div>
+        <!-- Services-Page -->
+         <div class="services-page">
+            <div class="services-hero">
+                <h1>My <span>Services</span></h1>
+                <p class="services-subtitle">Professional solutions tailored to your digital needs</p>
+            </div>
+
+            <div class="services-container">
+                <!-- Web Development Services -->
+                <section class="service-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <img src="imgs/mobdev.webp" alt="Web Development">
+                        </div>
+                        <h2>Web Development</h2>
+                    </div>
+                    
+                    <div class="service-items">
+                        <div class="service-card">
+                            <h3>Full Stack Web Applications</h3>
+                            <div class="service-details">
+                                <p>Complete web solutions from frontend to backend using MERN stack (MongoDB, Express, React, Node.js).</p>
+                                <ul class="service-features">
+                                    <li>Custom web application development</li>
+                                    <li>Database design and implementation</li>
+                                    <li>API development and integration</li>
+                                    <li>User authentication systems</li>
+                                    <li>Payment gateway integration</li>
+                                </ul>
+                                <div class="service-tech">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                    <span>Express</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-card">
+                            <h3>E-Commerce Solutions</h3>
+                            <div class="service-details">
+                                <p>Feature-rich online stores with secure payment processing and inventory management.</p>
+                                <ul class="service-features">
+                                    <li>Product catalog management</li>
+                                    <li>Shopping cart functionality</li>
+                                    <li>Payment system integration (Stripe, PayPal)</li>
+                                    <li>Order tracking system</li>
+                                    <li>Admin dashboard</li>
+                                </ul>
+                                <div class="service-tech">
+                                    <span>Next.js</span>
+                                    <span>Stripe API</span>
+                                    <span>Redux</span>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Mobile Development Services -->
+                <section class="service-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <img  src="imgs/mobdev.webp" alt="Mobile Development">
+                        </div>
+                        <h2>Mobile Development</h2>
+                    </div>
+                    
+                    <div class="service-items">
+                        <div class="service-card">
+                            <h3>Cross-Platform Mobile Apps</h3>
+                            <div class="service-details">
+                                <p>High-performance mobile applications for both iOS and Android using React Native.</p>
+                                <ul class="service-features">
+                                    <li>Single codebase for both platforms</li>
+                                    <li>Native-like performance</li>
+                                    <li>Offline capabilities</li>
+                                    <li>Push notifications</li>
+                                    <li>App store deployment</li>
+                                </ul>
+                                <div class="service-tech">
+                                    <span>React Native</span>
+                                    <span>Expo</span>
+                                    <span>Firebase</span>
+                                    <span>Redux</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-card">
+                            <h3>Enterprise Mobile Solutions</h3>
+                            <div class="service-details">
+                                <p>Custom business applications to streamline operations and improve productivity.</p>
+                                <ul class="service-features">
+                                    <li>Custom CRM systems</li>
+                                    <li>Field service applications</li>
+                                    <li>Inventory management</li>
+                                    <li>Data synchronization</li>
+                                    <li>Secure authentication</li>
+                                </ul>
+                                <div class="service-tech">
+                                    <span>React Native</span>
+                                    <span>Node.js</span>
+                                    <span>SQLite</span>
+                                    <span>JWT</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Additional Services -->
+                <section class="service-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <img src="imgs/mobdev.webp" alt="Other Services">
+                        </div>
+                        <h2>Additional Services</h2>
+                    </div>
+                    
+                    <div class="service-items">
+                        <div class="service-card">
+                            <h3>UI/UX Design</h3>
+                            <div class="service-details">
+                                <p>Beautiful, intuitive interfaces that enhance user experience and engagement.</p>
+                                <ul class="service-features">
+                                    <li>Wireframing and prototyping</li>
+                                    <li>User experience design</li>
+                                    <li>Responsive layouts</li>
+                                    <li>Design systems</li>
+                                    <li>Accessibility compliance</li>
+                                </ul>
+                                <div class="service-tech">
+                                    <span>Figma</span>
+                                    <span>Adobe XD</span>
+                                    <span>Tailwind CSS</span>
+                                    <span>Material UI</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-card">
+                            <h3>DevOps & Deployment</h3>
+                            <div class="service-details">
+                                <p>Streamlined deployment and continuous integration for your applications.</p>
+                                <ul class="service-features">
+                                    <li>CI/CD pipeline setup</li>
+                                    <li>Cloud deployment (AWS, Vercel, Netlify)</li>
+                                    <li>Docker containerization</li>
+                                    <li>Performance monitoring</li>
+                                    <li>Automated testing</li>
+                                </ul>
+                                <div class="service-tech">
+                                    <span>Docker</span>
+                                    <span>AWS</span>
+                                    <span>GitHub Actions</span>
+                                    <span>Jenkins</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Process Section -->
+                <section class="process-section">
+                    <h2>My Development Process</h2>
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <h3>Discovery</h3>
+                            <p>Requirements gathering and project planning</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <h3>Design</h3>
+                            <p>Wireframing and UI/UX design</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <h3>Development</h3>
+                            <p>Coding and implementation</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <h3>Testing</h3>
+                            <p>Quality assurance and bug fixing</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">5</div>
+                            <h3>Deployment</h3>
+                            <p>Launch and post-launch support</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- CTA Section -->
+                <section class="cta-section">
+                    <h2>Ready to Start Your Project?</h2>
+                    <p>Get in touch to discuss how I can help bring your ideas to life</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="cta-button primary">Contact Me</a>
+                        <a href="#portfolio" class="cta-button secondary">View Portfolio</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!--  -->
+
+        <!-- Skills-Page -->
+         <div class="skills-page">
+            <div class="skills-hero">
+                <h1>Technical <span>Skills</span></h1>
+                <p class="skills-subtitle">A comprehensive overview of my technical capabilities and expertise</p>
+            </div>
+
+            <div class="skills-container">
+                <!-- Core Competencies -->
+                <section class="skills-section">
+                    <h2 class="section-title">
+                        <span class="icon">💻</span>
+                        Core Competencies
+                    </h2>
+                    <div class="competencies-grid">
+                        <div class="competency-card">
+                            <div class="competency-icon">🚀</div>
+                            <h3>Full Stack Development</h3>
+                            <p>End-to-end web application development with MERN stack</p>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">📱</div>
+                            <h3>Cross-Platform Apps</h3>
+                            <p>Native-like mobile applications using React Native</p>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">🔐</div>
+                            <h3>Secure Architecture</h3>
+                            <p>Implementation of robust security practices</p>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">⚡</div>
+                            <h3>Performance Optimization</h3>
+                            <p>High-performance, scalable solutions</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Technical Skills Breakdown -->
+                <section class="skills-section">
+                    <h2 class="section-title">
+                        <span class="icon">🛠️</span>
+                        Technical Skills Breakdown
+                    </h2>
+                    
+                    <div class="skills-categories">
+                        <!-- Programming Languages -->
+                        <div class="skill-category">
+                            <h3 class="category-title">
+                                <span class="category-icon">{} </span>
+                                Programming Languages
+                            </h3>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>JavaScript (ES6+)</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>TypeScript</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Python</span>
+                                        <span>70%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Frontend Development -->
+                        <div class="skill-category">
+                            <h3 class="category-title">
+                                <span class="category-icon">🎨</span>
+                                Frontend Development
+                            </h3>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>React.js</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>HTML5/CSS3</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Tailwind CSS</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Redux</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Backend Development -->
+                        <div class="skill-category">
+                            <h3 class="category-title">
+                                <span class="category-icon">⚙️</span>
+                                Backend Development
+                            </h3>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Node.js</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Express.js</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>RESTful APIs</span>
+                                        <span>88%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>GraphQL</span>
+                                        <span>75%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Database & Cloud -->
+                        <div class="skill-category">
+                            <h3 class="category-title">
+                                <span class="category-icon">🗄️</span>
+                                Database & Cloud
+                            </h3>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>MongoDB</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Firebase</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>MySQL</span>
+                                        <span>75%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>AWS Basics</span>
+                                        <span>65%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 65%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mobile Development -->
+                        <div class="skill-category">
+                            <h3 class="category-title">
+                                <span class="category-icon">📱</span>
+                                Mobile Development
+                            </h3>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>React Native</span>
+                                        <span>88%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Expo</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Mobile UI/UX</span>
+                                        <span>82%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 82%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tools & DevOps -->
+                        <div class="skill-category">
+                            <h3 class="category-title">
+                                <span class="category-icon">🔧</span>
+                                Tools & DevOps
+                            </h3>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Git/GitHub</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>VS Code</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Docker</span>
+                                        <span>70%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Linux</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Proficiency Chart -->
+                <section class="skills-section">
+                    <h2 class="section-title">
+                        <span class="icon">📊</span>
+                        Proficiency Overview
+                    </h2>
+                    <div class="proficiency-chart">
+                        <div class="chart-item">
+                            <div class="chart-label">Frontend</div>
+                            <div class="chart-bar">
+                                <div class="chart-fill" style="width: 90%"></div>
+                            </div>
+                            <div class="chart-value">90%</div>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-label">Backend</div>
+                            <div class="chart-bar">
+                                <div class="chart-fill" style="width: 85%"></div>
+                            </div>
+                            <div class="chart-value">85%</div>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-label">Mobile</div>
+                            <div class="chart-bar">
+                                <div class="chart-fill" style="width: 88%"></div>
+                            </div>
+                            <div class="chart-value">88%</div>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-label">Database</div>
+                            <div class="chart-bar">
+                                <div class="chart-fill" style="width: 82%"></div>
+                            </div>
+                            <div class="chart-value">82%</div>
+                        </div>
+                        <div class="chart-item">
+                            <div class="chart-label">DevOps</div>
+                            <div class="chart-bar">
+                                <div class="chart-fill" style="width: 75%"></div>
+                            </div>
+                            <div class="chart-value">75%</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Additional Expertise -->
+                <section class="skills-section">
+                    <h2 class="section-title">
+                        <span class="icon">🌟</span>
+                        Additional Expertise
+                    </h2>
+                    <div class="expertise-grid">
+                        <div class="expertise-item">
+                            <h3>Agile Methodologies</h3>
+                            <p>Experience with Scrum and Kanban workflows</p>
+                        </div>
+                        <div class="expertise-item">
+                            <h3>Technical Writing</h3>
+                            <p>Clear documentation and code commenting</p>
+                        </div>
+                        <div class="expertise-item">
+                            <h3>Code Review</h3>
+                            <p>Thorough peer code evaluation</p>
+                        </div>
+                        <div class="expertise-item">
+                            <h3>Mentoring</h3>
+                            <p>Guiding junior developers</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!--  -->
+
+        <!-- Projects-Page -->
+            <div class="projects-page">
+            <div class="projects-hero">
+                <h1>My <span>Projects</span></h1>
+                <p class="projects-subtitle">A showcase of my best work and development capabilities</p>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                </div>
+            </div>
+
+            <div class="projects-container">
+                <!-- Featured Project -->
+                <div class="project-card featured" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="imgs/mern_ecommerce.jpg" alt="E-Commerce Platform">
+                        <div class="project-badge">Featured</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h2>MERN E-Commerce Platform</h2>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A complete e-commerce solution with product management, shopping cart, user authentication, 
+                            and payment processing. Built with modern technologies for optimal performance and scalability.
+                        </p>
+                        <div class="project-features">
+                            <h3>Key Features:</h3>
+                            <ul>
+                                <li>Product catalog with search and filtering</li>
+                                <li>User authentication (JWT)</li>
+                                <li>Payment integration (Stripe)</li>
+                                <li>Admin dashboard</li>
+                                <li>Order tracking system</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <h3>Technologies:</h3>
+                            <div class="tech-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                                <span>Redux</span>
+                                <span>Stripe API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="imgs/task-management.avif" alt="Task Management App">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h2>Task Management App</h2>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Play Store</a>
+                                <a href="#" class="project-link">App Store</a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A cross-platform productivity app that helps users organize tasks with reminders, 
+                            categories, and progress tracking. Features offline capabilities and cloud sync.
+                        </p>
+                        <div class="project-features">
+                            <h3>Key Features:</h3>
+                            <ul>
+                                <li>Task organization with categories</li>
+                                <li>Reminders and notifications</li>
+                                <li>Offline functionality</li>
+                                <li>Progress tracking</li>
+                                <li>Cross-platform sync</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <h3>Technologies:</h3>
+                            <div class="tech-tags">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Redux</span>
+                                <span>Expo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="imgs/portfolio.jpg" alt="Portfolio Website">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h2>Interactive Portfolio Website</h2>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A responsive portfolio website showcasing my skills, projects, and professional 
+                            experience. Features smooth animations and a clean, modern design.
+                        </p>
+                        <div class="project-features">
+                            <h3>Key Features:</h3>
+                            <ul>
+                                <li>Responsive design</li>
+                                <li>Interactive elements</li>
+                                <li>Dark/light mode</li>
+                                <li>Contact form</li>
+                                <li>Project showcase</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <h3>Technologies:</h3>
+                            <div class="tech-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>GSAP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="imgs/social-media.jpg" alt="Social Media App">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h2>Social Media Dashboard</h2>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A social media analytics dashboard that aggregates data from multiple platforms 
+                            and presents insights through interactive visualizations.
+                        </p>
+                        <div class="project-features">
+                            <h3>Key Features:</h3>
+                            <ul>
+                                <li>Multi-platform integration</li>
+                                <li>Data visualization</li>
+                                <li>Custom reporting</li>
+                                <li>Real-time updates</li>
+                                <li>User management</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <h3>Technologies:</h3>
+                            <div class="tech-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>D3.js</span>
+                                <span>REST API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="imgs/weather-dashboard.avif" alt="Weather App">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h2>Weather Forecast App</h2>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Play Store</a>
+                                <a href="#" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A weather application providing real-time forecasts, severe weather alerts, 
+                            and location-based weather information with an intuitive interface.
+                        </p>
+                        <div class="project-features">
+                            <h3>Key Features:</h3>
+                            <ul>
+                                <li>Real-time weather data</li>
+                                <li>5-day forecast</li>
+                                <li>Location-based services</li>
+                                <li>Severe weather alerts</li>
+                                <li>Customizable widgets</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <h3>Technologies:</h3>
+                            <div class="tech-tags">
+                                <span>React Native</span>
+                                <span>OpenWeather API</span>
+                                <span>Geolocation</span>
+                                <span>Redux</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-cta">
+                <h2>Have a project in mind?</h2>
+                <p>Let's discuss how I can help bring your ideas to life</p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </div>
+        <!--  -->
+
+        <!-- Contact-page -->
+            <div class="contacts-page">
+                <div class="contact-hero">
+                    <h1>Get In <span>Touch</span></h1>
+                    <p class="contact-subtitle">Let's discuss how I can help with your next project</p>
+                </div>
+
+                <div class="contact-container">
+                    <!-- Contact Form Section -->
+                    <section class="contact-form-section">
+                        <h2 class="section-title">
+                            <span class="icon">✉️</span>
+                            Send Me a Message
+                        </h2>
+                        
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project..."></textarea>
+                            </div>
+                            
+                            <div class="form-submit">
+                                <button type="submit" class="submit-btn">
+                                    <span>Send Message</span>
+                                    <svg viewBox="0 0 24 24" width="24" height="24">
+                                        <path fill="currentColor" d="M2,21L23,12L2,3V10L17,12L2,14V21Z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </section>
+
+                    <!-- Contact Info Section -->
+                    <section class="contact-info-section">
+                        <h2 class="section-title">
+                            <span class="icon">📱</span>
+                            Contact Information
+                        </h2>
+                        
+                        <div class="contact-info-cards">
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24" width="48" height="48">
+                                        <path fill="#3498db" d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+                                    </svg>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Location</h3>
+                                    <p>Multan, Punjab, Pakistan</p>
+                                    <a href="https://maps.google.com/?q=Multan" target="_blank" class="info-link">View on Map</a>
+                                </div>
+                            </div>
+                            
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24" width="48" height="48">
+                                        <path fill="#3498db" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"></path>
+                                    </svg>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Email</h3>
+                                    <p>mubashargill595@gmail.com</p>
+                                    <a href="mailto:mubashargill595@gmail.com" class="info-link">Send Email</a>
+                                </div>
+                            </div>
+                            
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24" width="48" height="48">
+                                        <path fill="#3498db" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"></path>
+                                    </svg>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Phone</h3>
+                                    <p>+92 308 7347575</p>
+                                    <a href="tel:+923087347575" class="info-link">Call Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-media-section">
+                            <h3>Connect With Me</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/mubashar-hassan-948623377/" target="_blank" class="social-link">
+                                    <img src="imgs/in.jpg" alt="LinkedIn">
+                                </a>
+                                <a href="https://github.com/yourusername" target="_blank" class="social-link">
+                                    <img src="imgs/git.png" alt="GitHub">
+                                </a>
+                                <a href="https://twitter.com/MubasharGill15" target="_blank" class="social-link">
+                                    <img src="imgs/twitter.png" alt="Twitter">
+                                </a>
+                                <a href="https://www.instagram.com/mubashar_gill_3" target="_blank" class="social-link">
+                                    <img src="imgs/insta.jpg" alt="Instagram">
+                                </a>
+                                <a href="https://www.facebook.com/mubashar.gill.886208" target="_blank" class="social-link">
+                                    <img src="imgs/fb.jpg" alt="Facebook">
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Map Section -->
+                <div class="map-section">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217759.2998038096!2d71.42539895!3d30.1984198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b35a5d30e39a1%3A0x2a1b3e9e1b4a8a1f!2sMultan%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s" 
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                    </iframe>
+                </div>
+
+                <!-- Contact CTA -->
+                <div class="contact-cta">
+                    <h2>Ready to Start Your Project?</h2>
+                    <p>I'm available for freelance work. Let's discuss how I can help bring your ideas to life.</p>
+                    <div class="cta-buttons">
+                        <a href="#contactForm" class="cta-btn primary">Get a Quote</a>
+                        <a href="tel:+923087347575" class="cta-btn secondary">Call Me</a>
+                    </div>
+                </div>
+            </div>
+        <!--  -->
+    </div>
+
         <footer class="footer">
             <div class="footer-container">
                 <div class="footer-nav">
-                    <a href="#Home" class="footer-link">HOME</a>
-                    <a href="#About_Me" class="footer-link">ABOUT</a>
-                    <a href="#Resume" class="footer-link">RESUME</a>
-                    <a href="#Services" class="footer-link">SERVICES</a>
-                    <a href="#Skills" class="footer-link">SKILLS</a>
-                    <a href="#Projects" class="footer-link">PROJECTS</a>
-                    <a href="#Contact" class="footer-link">CONTACT</a>
+                    <a id="home_nav_id_l" href="#Home" class="footer-link">HOME</a>
+                    <a id="about_nav_id_l" href="#About_Me" class="footer-link">ABOUT</a>
+                    <a id="resume_nav_id_l" href="#Resume" class="footer-link">RESUME</a>
+                    <a id="services_nav_id_l" href="#Services" class="footer-link">SERVICES</a>
+                    <a id="skills_nav_id_l" href="#Skills" class="footer-link">SKILLS</a>
+                    <a id="projects_nav_id_l" href="#Projects" class="footer-link">PROJECTS</a>
+                    <a id="contact_nav_id_l" href="#Contact" class="footer-link">CONTACT</a>
                 </div>
                 <div class="footer-copyright">
                     <p>&copy; 2023 Mubashar Gill. All Rights Reserved.</p>

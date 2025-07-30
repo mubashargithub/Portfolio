@@ -23,7 +23,7 @@ function scrollToProjects(){
 document.getElementById('downloadCvBtn').addEventListener('click', function() {
     // Create temporary link
     const link = document.createElement('a');
-    link.href = 'imgs/MubasharResume.pdf';
+    link.href = 'MubasharResume.pdf';
     link.download = 'Mubashar_Gill_CV.pdf'; // The filename users will see
     
     // Trigger download
@@ -137,14 +137,6 @@ homenav.addEventListener('click' , ()=>{
     skills_page1.style.display = 'none';
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'none';
-
-    homenav.style.color = 'lime';
-    aboutnav.style.color = 'red';
-    resumenav.style.color = 'red';
-    servicesnav.style.color = 'red';
-    skillsnav.style.color = 'red';
-    projectsnav.style.color = 'red';
-    contactsnav.style.color = 'red';
 } )
 homenavl.addEventListener('click' , ()=>{
     main.style.display = 'initial';
@@ -154,14 +146,6 @@ homenavl.addEventListener('click' , ()=>{
     skills_page1.style.display = 'none';
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'none';
-
-    homenavl.style.color = 'lime';
-    aboutnavl.style.color = 'red';
-    resumenavl.style.color = 'red';
-    servicesnavl.style.color = 'red';
-    skillsnavl.style.color = 'red';
-    projectsnavl.style.color = 'red';
-    contactsnavl.style.color = 'red';
 
 } )
 
@@ -174,13 +158,6 @@ aboutnav.addEventListener('click' , ()=>{
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'none';
 
-    homenav.style.color = 'red';
-    aboutnav.style.color = 'lime';
-    resumenav.style.color = 'red';
-    servicesnav.style.color = 'red';
-    skillsnav.style.color = 'red';
-    projectsnav.style.color = 'red';
-    contactsnav.style.color = 'red';
 } )
 aboutnavl.addEventListener('click' , ()=>{
     main.style.display = 'none';
@@ -191,13 +168,6 @@ aboutnavl.addEventListener('click' , ()=>{
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'none';
 
-    homenavl.style.color = 'red';
-    aboutnavl.style.color = 'lime';
-    resumenavl.style.color = 'red';
-    servicesnavl.style.color = 'red';
-    skillsnavl.style.color = 'red';
-    projectsnavl.style.color = 'red';
-    contactsnavl.style.color = 'red';
 } )
 
 resumenav.addEventListener('click' , ()=>{
@@ -209,13 +179,6 @@ resumenav.addEventListener('click' , ()=>{
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'none';
 
-    homenav.style.color = 'red';
-    aboutnav.style.color = 'red';
-    resumenav.style.color = 'lime';
-    servicesnav.style.color = 'red';
-    skillsnav.style.color = 'red';
-    projectsnav.style.color = 'red';
-    contactsnav.style.color = 'red';
 } )
 resumenavl.addEventListener('click' , ()=>{
     main.style.display = 'none';
@@ -226,13 +189,6 @@ resumenavl.addEventListener('click' , ()=>{
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'none';
 
-    homenavl.style.color = 'red';
-    aboutnavl.style.color = 'red';
-    resumenavl.style.color = 'lime';
-    servicesnavl.style.color = 'red';
-    skillsnavl.style.color = 'red';
-    projectsnavl.style.color = 'red';
-    contactsnavl.style.color = 'red';
 } )
 
 
@@ -245,13 +201,6 @@ servicesnav.addEventListener('click' , ()=>{
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'none';
 
-    homenav.style.color = 'red';
-    aboutnav.style.color = 'red';
-    resumenav.style.color = 'red';
-    servicesnav.style.color = 'lime';
-    skillsnav.style.color = 'red';
-    projectsnav.style.color = 'red';
-    contactsnav.style.color = 'red';
 } )
 servicesnavl.addEventListener('click' , ()=>{
     main.style.display = 'none';
@@ -262,13 +211,6 @@ servicesnavl.addEventListener('click' , ()=>{
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'none';
 
-    homenavl.style.color = 'red';
-    aboutnavl.style.color = 'red';
-    resumenavl.style.color = 'red';
-    servicesnavl.style.color = 'lime';
-    skillsnavl.style.color = 'red';
-    projectsnavl.style.color = 'red';
-    contactsnavl.style.color = 'red';
 } )
 
 
@@ -281,14 +223,6 @@ skillsnav.addEventListener('click' , ()=>{
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'none';
 
-    homenav.style.color = 'red';
-    aboutnav.style.color = 'red';
-    resumenav.style.color = 'red';
-    servicesnav.style.color = 'red';
-    skillsnav.style.color = 'lime';
-    projectsnav.style.color = 'red';
-    contactsnav.style.color = 'red';
-
 } )
 skillsnavl.addEventListener('click' , ()=>{
     main.style.display = 'none';
@@ -299,13 +233,6 @@ skillsnavl.addEventListener('click' , ()=>{
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'none';
 
-    homenavl.style.color = 'red';
-    aboutnavl.style.color = 'red';
-    resumenavl.style.color = 'red';
-    servicesnavl.style.color = 'red';
-    skillsnavl.style.color = 'lime';
-    projectsnavl.style.color = 'red';
-    contactsnavl.style.color = 'red';
 } )
 
 
@@ -319,14 +246,6 @@ projectsnav.addEventListener('click' , ()=>{
     projects_page1.style.display = 'initial';
     contacts_page1.style.display = 'none';
 
-    homenav.style.color = 'red';
-    aboutnav.style.color = 'red';
-    resumenav.style.color = 'red';
-    servicesnav.style.color = 'red';
-    skillsnav.style.color = 'red';
-    projectsnav.style.color = 'lime';
-    contactsnav.style.color = 'red';
-
 } )
 projectsnavl.addEventListener('click' , ()=>{
     main.style.display = 'none';
@@ -336,14 +255,6 @@ projectsnavl.addEventListener('click' , ()=>{
     skills_page1.style.display = 'none';
     projects_page1.style.display = 'initial';
     contacts_page1.style.display = 'none';
-
-    homenavl.style.color = 'red';
-    aboutnavl.style.color = 'red';
-    resumenavl.style.color = 'red';
-    servicesnavl.style.color = 'red';
-    skillsnavl.style.color = 'red';
-    projectsnavl.style.color = 'lime';
-    contactsnavl.style.color = 'red';
 
 } )
 
@@ -358,13 +269,6 @@ contactsnav.addEventListener('click' , ()=>{
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'initial';
 
-    homenav.style.color = 'red';
-    aboutnav.style.color = 'red';
-    resumenav.style.color = 'red';
-    servicesnav.style.color = 'red';
-    skillsnav.style.color = 'red';
-    projectsnav.style.color = 'red';
-    contactsnav.style.color = 'lime';
 } )
 contactsnavl.addEventListener('click' , ()=>{
     main.style.display = 'none';
@@ -375,11 +279,4 @@ contactsnavl.addEventListener('click' , ()=>{
     projects_page1.style.display = 'none';
     contacts_page1.style.display = 'initial';
 
-    homenavl.style.color = 'red';
-    aboutnavl.style.color = 'red';
-    resumenavl.style.color = 'red';
-    servicesnavl.style.color = 'red';
-    skillsnavl.style.color = 'red';
-    projectsnavl.style.color = 'red';
-    contactsnavl.style.color = 'lime';
 } )
