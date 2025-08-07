@@ -137,12 +137,12 @@ body{
 
 .p1_img{
     /* border: 2px solid rgb(203, 238, 28); */
-    width: 600px;
+    width: 700px;
     text-align: center;
     overflow: hidden;
 }
 .p1_img>img{
-    width:560px;
+    width:620px;
     height: 600px;
     border-radius: 20px;
 }
